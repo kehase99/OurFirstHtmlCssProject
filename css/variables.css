@@ -1,0 +1,12 @@
+:root{
+    --main-navbar-background-color: #6366f1;
+    --main-content-background-color:#312e81;
+    --main-navbar-hover:#312e81;
+    --main-text-color:#fff;
+    --main-body-background-color:#eef2ff;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #fff;
+}

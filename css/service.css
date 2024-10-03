@@ -1,0 +1,36 @@
+@import url("variables.css");
+@import url("header.css");
+@import url("body.css");
+
+.container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 100%;
+    column-gap: 10px;
+    row-gap: 5px;
+    margin-top: 15px;
+    
+}
+
+.container .service{
+    width: 45%;
+    height: 100%;
+}
+.container .service .image-container{
+    width: 100%;
+    height: 70%;
+}
+.container .service .image-container img{
+    width: 100%;
+    width: 100%;
+}
+.container .service .text-container{
+    width: 100%;
+    height: 70%;
+}
+.container .service .image-container img{
+    width: 100%;
+    width: 100%;
+}
