@@ -6,31 +6,56 @@
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    width: 100%;
-    height: 100%;
     column-gap: 10px;
-    row-gap: 5px;
+    row-gap: 10px;
     margin-top: 15px;
-    
+    margin-bottom: 15px;
 }
-
-.container .service{
-    width: 45%;
-    height: 100%;
+.container > .service{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 48%;
+    height: 250px;
+    border-radius: 10px;
+    background-color: var(--main-text-color);
 }
-.container .service .image-container{
+.container > .service:hover{
+    transform: scale(1.05);
+    transition: transform 0.5s ease;
+}
+.container > .service > .image-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     width: 100%;
-    height: 70%;
+    height: 65%;
 }
 .container .service .image-container img{
+    display: flex;
     width: 100%;
-    width: 100%;
+    height: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom: 3px solid var(--main-navbar-background-color);
 }
 .container .service .text-container{
-    width: 100%;
-    height: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
 }
-.container .service .image-container img{
-    width: 100%;
-    width: 100%;
+.container .service .text-container h3{
+    margin-bottom: 10px;
+}
+@media (max-width:768px) {
+    .container .service{
+        width: 96%;
+    }
+    .container .service .text-container *{
+        text-align: center;
+    }
+    .header{
+        text-align: center;
+    }
 }
