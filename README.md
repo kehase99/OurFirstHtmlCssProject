@@ -1,4 +1,4 @@
-
+/*
 .container{
     display: flex;
     justify-content: center;
@@ -47,7 +47,7 @@
     margin-bottom: 10px;
 }
 
-/*
+
 @media (max-width: 768px) {
     .container .service{
         width: 96%;
