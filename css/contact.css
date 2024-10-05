@@ -1,3 +1,69 @@
 @import url("variables.css");
-@import url("header.css");
 @import url("body.css");
+@import url("index.css");
+@import url("header.css");
+.contact-cotainer{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.contact-us-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 30%;
+    background-color: var(--main-text-color);
+    height: 350px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin-top: 10px;
+    width: 100%;
+}
+.contact-form{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+
+}
+label, input, textarea{
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 1.2rem;
+}
+textarea{
+    padding: 10px 0;
+}
+label{
+    font-size: 0.8rem;
+}
+input[type="submit"]{
+    width: 91%;
+    margin: 10px;
+    padding: 5px;
+    background-color: var( --main-navbar-background-color);
+    color: var(--main-text-color);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+@media (max-width: 299px) {
+    .contact-us-box{
+        width: 100%;
+        margin: 0 10px;
+    }
+}
+@media (min-width: 300px) and (max-width: 768px) {
+    .contact-us-box{
+        width: 100%;
+        margin: 0 200px;
+    }
+}

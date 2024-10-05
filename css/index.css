@@ -1,7 +1,6 @@
 @import url("variables.css");
 @import url("header.css");
 @import url("body.css");
-
 .navbar{
     display: flex;
     justify-content: space-between;
