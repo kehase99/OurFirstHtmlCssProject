@@ -14,6 +14,19 @@
     color: var(--main-text-color);
     padding: 1.0rem;
 }
+.logo > a{
+    background-color: var(--main-navbar-hover);
+    border-radius: 10px;
+}
+.logo > a > span{
+    background-color: var(--main-navbar-background-color);
+    padding-top: 16px;
+    padding-bottom: 16px;
+    margin-left: -13px;
+    margin-right: -13px;
+    border-radius: 8px;
+    
+}
 .navbar-link{
     display: flex;
     list-style-type: none;
