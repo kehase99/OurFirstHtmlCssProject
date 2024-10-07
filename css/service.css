@@ -1,38 +1,7 @@
 @import url("variables.css");
 @import url("body.css");
+@import url("navbar.css");
 @import url("header.css");
-@import url("index.css");
-/*.navbar{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: var(--main-navbar-background-color);
-    padding: 15px;
-}
-
-.navbar a{
-    text-decoration: none;
-    color: var(--main-text-color);
-    padding: 1.0rem;
-}
-.navbar-link{
-    display: flex;
-    list-style-type: none;
-}
-.navbar-link li{
-    margin-left: 20px;
-}
-
-.navbar-link a{
-    font-size: 1.2rem;
-}
-.navbar-link a:hover{
-    background-color: var(--main-navbar-hover);
-}
-.active{
-    background-color: var(--main-navbar-hover);
-}
-*/
 .container{
     display: flex;
     justify-content: center;

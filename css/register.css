@@ -1,7 +1,8 @@
 @import url("variables.css");
 @import url("body.css");
-@import url("index.css");
+@import url("navbar.css");
 @import url("header.css");
+
 .register-cotainer{
     display: flex;
     justify-content: center;
@@ -13,7 +14,7 @@
     align-items: center;
     width: 30%;
     background-color: var(--main-text-color);
-    height: 300px;
+    height: 305px;
     margin-top: 20px;
     margin-bottom: 20px;
     border-radius: 10px;
@@ -52,15 +53,18 @@ input[type="submit"]{
     border-radius: 5px;
     cursor: pointer;
 }
-@media (max-width: 299px) {
+@media (max-width: 399px) {
     .register-box{
-        width: 100%;
+        width: 80%;
+        margin: 0 20px;
+        margin-top: 20px;
+    }
+}
+@media (min-width: 400px) and (max-width: 768px) {
+    .register-box{
+        width: 50%;
         margin: 0 10px;
+        margin-top: 20px;
     }
 }
-@media (min-width: 300px) and (max-width: 768px) {
-    .register-box{
-        width: 100%;
-        margin: 0 200px;
-    }
-}
+

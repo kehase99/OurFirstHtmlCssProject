@@ -1,6 +1,6 @@
 @import url("variables.css");
 @import url("body.css");
-@import url("index.css");
+@import url("navbar.css");
 @import url("header.css");
 .contact-cotainer{
     display: flex;
@@ -55,15 +55,17 @@ input[type="submit"]{
     border-radius: 5px;
     cursor: pointer;
 }
-@media (max-width: 299px) {
+@media (max-width: 399px) {
     .contact-us-box{
-        width: 100%;
-        margin: 0 10px;
+        width: 80%;
+        margin: 0 20px;
+        margin-top: 20px;
     }
 }
-@media (min-width: 300px) and (max-width: 768px) {
+@media (min-width: 400px) and (max-width: 768px) {
     .contact-us-box{
-        width: 100%;
-        margin: 0 200px;
+        width: 50%;
+        margin: 0 10px;
+        margin-top: 20px;
     }
 }

@@ -5,24 +5,31 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-        .humberger{
-            display: flex;
-            flex-direction: column;
-        }
-        .line{
-            
-            width: 25px;
-            height: 5px;
-            background-color: #333;
-            margin: 3px;
-        }
+    .row{
+      display: grid;
+      grid-template-rows: 250px 250px;
+      grid-template-columns: 500px 500px;
+        
+    }
+    .column{
+      font-size: 3rem;
+      background-color: darkviolet;
+      border: 2px solid rgb(123, 162, 143);
+      color: white;
+        
+    }
+    .column >img{
+        width: 100%;
+        height: 100%;
+    }
     </style>
 </head>
 <body>
-    <div class="humberger" onclick="toggleMenu()">
-        <span class="line"></span>
-        <span class="line"></span>
-        <span class="line"></span>
+    <div class="row">
+        <div class="column"><img src="./Bus.jpg" alt="bus"></div>
+        <div class="column"><img src="./Taxi.jpg" alt="Taxi"></div>
+        <div class="column"><img src="./Train.jpg" alt="Train"></div>
+        <div class="column"><img src="./Boat.jpg" alt="Boat"></div>
     </div>
 </body>
 </html>
