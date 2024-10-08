@@ -3,7 +3,9 @@
     padding: 0;
     box-sizing: border-box;
 }
-body{
+html,body{
     background-color: var(--main-body-background-color);
     font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+    min-width: 250px;
 }

@@ -38,7 +38,7 @@
 }
 .navbar-link a:hover{
     background-color: var(--main-navbar-hover);
-    padding: 19px;
+    
 }
 .active{
     background-color: var(--main-navbar-hover);
@@ -69,18 +69,27 @@
 
     .navbar-link > li{
         text-align: center;
-        margin: 15px 0;
+        margin: 17px 0;
     }
     .humberger{
         display: flex;
     }
     .navbar-link a:hover{
         background-color: var(--main-navbar-hover);
-        padding: 10px;
+        /*padding: 10px;
         padding-bottom: 10px;
+        width: 30px;*/
     }
     .active{
         background-color: var(--main-navbar-hover);
-        padding-bottom: 10px;
+        
+    }
+
+    .logo > a > span{
+        flex-shrink: 3;
+        
+    }
+    .logo > a{
+        flex-shrink: 4;
     }
 }

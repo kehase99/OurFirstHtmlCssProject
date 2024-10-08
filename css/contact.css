@@ -57,7 +57,8 @@ input[type="submit"]{
 }
 @media (max-width: 399px) {
     .contact-us-box{
-        width: 80%;
+        width: 100%;
+        min-width: 150px;
         margin: 0 20px;
         margin-top: 20px;
     }
