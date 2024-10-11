@@ -321,4 +321,40 @@ input[type="submit"]{
 */
 
 
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    .row{
+      display: grid;
+      grid-template-rows: 250px 250px;
+      grid-template-columns: 500px 500px;
+        
+    }
+    .column{
+      font-size: 3rem;
+      background-color: darkviolet;
+      border: 2px solid rgb(123, 162, 143);
+      color: white;
+        
+    }
+    .column >img{
+        width: 100%;
+        height: 100%;
+    }
+    </style>
+</head>
+<body>
+    <div class="row">
+        <div class="column"><img src="./Bus.jpg" alt="bus"></div>
+        <div class="column"><img src="./Taxi.jpg" alt="Taxi"></div>
+        <div class="column"><img src="./Train.jpg" alt="Train"></div>
+        <div class="column"><img src="./Boat.jpg" alt="Boat"></div>
+    </div>
+</body>
+</html>
 ````
