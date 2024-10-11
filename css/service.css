@@ -63,6 +63,11 @@
         text-align: center;
     }
 }
+@media (max-width: 500px){
+    .container .service .text-container p{
+        font-size: 0.8rem;
+    }
+ }
  @media (max-width: 370px){
     .container .service .text-container p{
         font-size: 0.7rem;
