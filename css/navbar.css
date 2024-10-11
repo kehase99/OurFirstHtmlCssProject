@@ -86,6 +86,12 @@
     }
 
     .logo {
+        font-size: 0.8rem;
+    }
+}
+
+@media (max-width: 300px) {
+    .logo {
         font-size: 0.7rem;
     }
 }
